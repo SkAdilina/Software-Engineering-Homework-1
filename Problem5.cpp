@@ -2,7 +2,7 @@
 /*
 Problem 5
 
-Write a function which allows to compute the truth table of the following operators
+Write a function which allows to compute the truth table of the following operators 1. AND 2. OR
 */
 
 #include<iostream>
@@ -45,9 +45,11 @@ void AND_truth_table()
 
 int main()
 {
-	std::cout<<"Truth Table for OR operator\n";
-	OR_truth_table();
+	
 	std::cout<<"Truth Table for AND operator\n";
 	AND_truth_table();
+	std::cout<<"Truth Table for OR operator\n";
+	OR_truth_table();
+	
 	return 0;
 }
